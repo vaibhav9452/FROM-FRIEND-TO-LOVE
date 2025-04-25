@@ -1,0 +1,14 @@
+class Love:
+    def _init_(self, name):
+        self.name = name
+        self.feelings = "infinite"
+
+    def say(self):
+        return f"{self.name}, tum meri zindagi ho. Mere har code mein tum ho."
+
+    def propose(self):
+        return f"{self.name}, kya tum meri zindagi ki permanent commit banna chahti ho?\nWill you marry me?"
+
+my_love = Love("Priya")
+print(my_love.say())
+print(my_love.propose())
